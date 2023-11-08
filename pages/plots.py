@@ -213,8 +213,8 @@ def page_plot_heatmap():
     x_5=st.checkbox('Urban Property')
     x_6=st.checkbox('Loan Amount')
     x_7=st.checkbox('Gender')
-    x_8=st.checkbox('Applicantand Co-applicant Income')
-    x_9=st.checkbox('correlation between "Loan_Status" and other variables')
+    x_8=st.checkbox('Applicant and Co-applicant Income')
+    x_9=st.checkbox('Some specific combinations')
     if x_1:
        st.markdown('''
         Heatmap：
